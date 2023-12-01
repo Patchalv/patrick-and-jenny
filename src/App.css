@@ -2,11 +2,18 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Poppins', sans-serif;
+
 }
 
 html,
 body {
   height: 100%;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: 'Satisfy', cursive;
 }
 
 .App {
@@ -39,10 +46,6 @@ body {
   justify-content: center;
 }
 
-.responsive-info-container h1 {
-  font-size: 40px;
-}
-
 
 
 .timer {
@@ -50,6 +53,7 @@ body {
   padding: 10px;
   text-align: center;
   width: 90%;
+  margin-top: 25px;
 }
 
 .col-4 {
@@ -103,7 +107,7 @@ body {
   }
 
   .timer {
-    margin-top: 25px;
+    margin-top: 40px;
     width: 60%;
   }
 
@@ -128,4 +132,9 @@ body {
     font-size: calc(16px + 2vmin);
     margin: 0;
   }
+
+  .info-container h1 {
+    font-size: 70px;
+  }
+
 }
